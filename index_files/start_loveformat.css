@@ -1,0 +1,47 @@
+.div_loveformat { 
+	display: none;
+	position: relative; 
+	width: 500px; height: 815px;
+	z-index: 666;
+	overflow: hidden;
+}
+.div_loveformat .img_lf_bg_big {
+	position: absolute; 
+	left: 0px; top: 0px;
+	width: 500px; 
+} 
+.div_loveformat .img_lf_bg { 
+	position: absolute; 
+	left: 0px; top: 0px;
+	width: 500px; 
+	height: 815px;
+}
+#img_up_half { 
+	position: absolute; 
+	left: 0px; top: 230px; 
+	width: 500px; 
+	height: 815px;
+	z-index: 667;
+}
+.span_lf_text {
+	position: absolute; 
+	color: white;
+	font-size: 20px;
+}
+#span_tips_btn {			
+	left: 65px; top: 440px;
+	z-index: 669;
+}
+#span_tips {
+	display: none;
+	left: 65px; top: 480px;
+	line-height: 1.4em;
+	white-space:pre-wrap; /*保留换行效果*/ 
+}
+#div_lf_mask {
+	width: 500px; height: 585px;
+	background-color: rgba(255,0,255,0);
+	position: absolute; 
+	left: 0px; top: 309px; 
+	z-index: 668;
+}
